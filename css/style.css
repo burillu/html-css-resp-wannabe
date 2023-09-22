@@ -127,7 +127,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+/* MOBILE */
  @media screen and (max-width:1160px) {
     .container {
         width: 100%;
@@ -143,6 +143,7 @@ img {
         margin-bottom: 30px;
     } */
  }
+ /* TABLET */
   @media screen and (max-width:768px) {
     .container {
         width: 100%;
@@ -158,6 +159,7 @@ img {
         margin-bottom: 30px;
     } */
  }
+ /* DESKTOP */
  @media screen and (max-width:480px) {
     .container {
         width: 90%;
@@ -173,6 +175,11 @@ img {
     }
     .lessons .col, .steps .col, .why-us .col-right, .why-us .col-left{
         width: 100%;
+    }
+    .why-us{
+        background-color: #222222;
+        margin: -3em 0;
+        padding: 3em 0;
     }
     .col{
         margin-bottom: 30px;
