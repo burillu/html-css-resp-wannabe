@@ -139,12 +139,15 @@ img {
     }
     h2 {
         font-size: 1.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
     }
     
     h3 {
         font-size: 1.2rem;
         margin-bottom: 0.8rem;
+    }
+    .steps .col img{
+        margin-bottom: 0;
     }
  }
  /* TABLET */
