@@ -130,7 +130,8 @@ img {
 
  @media screen and (max-width:480px) {
     .container {
-        width: 100%;
+        width: 90%;
+        font-size: 1.23em;
     }
     .row {
         flex-direction: column;
