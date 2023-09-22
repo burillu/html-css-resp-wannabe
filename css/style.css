@@ -143,3 +143,19 @@ img {
         margin-bottom: 30px;
     }
  }
+
+ @media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+    /* .row {
+        flex-direction: column;
+        align-content: space-between;
+    } */
+    /* .steps .col, .why-us .col-right, .why-us .col-left{
+        width: 100%;
+    } */
+    /* .col{
+        margin-bottom: 30px;
+    } */
+ }
